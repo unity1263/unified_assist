@@ -1,2 +1,45 @@
+# Local assistant state
 .assist/
 .codex
+.codex/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+
+# Environment and local overrides
+.env
+.env.*
+*.local
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
